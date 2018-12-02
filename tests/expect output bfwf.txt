@@ -1,0 +1,39 @@
+[tbakker@omega heap]$ env LD_PRELOAD=lib/libmalloc-bf.so bfwf
+
+Worst fit should pick this one: 0xbd5a018
+
+Best fit should pick this one: 0xbd6a030
+
+Chosen address: 0xbd6a030
+
+heap management statistics
+
+mallocs: 0
+frees: 0
+reuses: 0
+grows: 0
+splits: 0
+coalesces: 0
+blocks: 0
+requested: 0
+max heap: 0
+
+[tbakker@omega heap]$ env LD_PRELOAD=lib/libmalloc-wf.so bfwf
+
+Worst fit should pick this one: 0x187be018
+
+Best fit should pick this one: 0x187ce030
+
+Chosen address: 0x187be018
+
+heap management statistics
+
+mallocs: 0
+frees: 0
+reuses: 0
+grows: 0
+splits: 0
+coalesces: 0
+blocks: 0
+requested: 0
+max heap: 0
